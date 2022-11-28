@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url('images/background.png');
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+}
+
+.heading h2 {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.text {
+    background-color: aqua;
+}
+
+.column {
+    background-color: aqua;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.flex-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bg-img2 {
+    background-image: url('images/bg-grid.png');
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container3 {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.heading3 h1 {
+    text-align: left;
+}
+
+.heading3 h2 {
+    text-align: left;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10x;
+}
+
+footer {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
