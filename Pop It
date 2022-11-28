@@ -1,0 +1,84 @@
+<!DOCTYPE html>>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pop IT!</title>
+    <link href="Pop It.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="container">
+            <div class="topnav">
+                <a href="#HAC">HAC</a>
+                <a href="#Discount">Discount</a>
+                <a href="#Contacts">Contacts</a>
+            </div>
+
+            <div class="heading">
+                <h1>Pop IT!</h1>
+                <h2>The Best Anti-Stress Toy - Endless Bubble Warp</h2>
+            </div>
+            <button class="button">Buy</button>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="heading2">
+            <h1 style="text-align: center">What is Pop It ?</h1>
+            <h2 style="text-align: center;">Pop it literally translate as "pop it". This is a child's game, the process
+                of which can be compared to the bursting of an air-bubble wrapping film. But Unlike fil, pop it can be
+                pressed with the characteristic sensations and sound "infinitely":dozens of silicone bubbles are simply
+                squeezed out in the other direction.</h2>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="text">
+            <h1 style="text-align: center;">Choose your Pop-It!</h1>
+        </div>
+        <div class="column">
+            <img src="images/square.png" alt="Square" style="width:50%">
+            <p>Multicolored Square</p>
+            <button class="button">Buy</button>
+        </div>
+        <div class="column">
+            <img src="images/round.png" alt="Round" style="width:50%">
+            <p>Colorful Round</p>
+            <button class="button">Buy</button>
+        </div>
+        <div class="column">
+            <img src="images/amongus.png" alt="Amongus" style="width:50%">
+            <p>Among Us Marble</p>
+            <button class="button">Buy</button>
+        </div>
+    </div>
+
+    <div class="bg-img2">
+        <div class="container3">
+            <div class="heading3">
+                <h1>Rules of the Game</h1>
+                <h2>Players take turns and click on the pimples. It is necessary to finish the series that you started.
+                    You can press a maximum of 3 pimples at the same time (they must be nearby, you cannot press several
+                    pimples at once if they are not back to back). The task is to make the opponent go last. Who went
+                    last - they lost)</h2>
+            </div>
+            <div class="column2">
+                <img src="images/photo.jpg" alt="photo" style="width:50%">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="НЕ_ПУПЫРКА.ру">НЕ_ПУПЫРКА.ру</a>
+        <a href="Payment Methods">Payment Methods</a>
+        <a href="Delivery">Delivery</a>
+        <a href="Opt">Opt</a>
+        <a href="Contacts">Contacts</a>
+    </footer>
+
+
+</body>
+
+</html>
